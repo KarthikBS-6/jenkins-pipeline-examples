@@ -1,0 +1,13 @@
+# file: app/main.py
+
+import sys
+import datetime
+
+def main():
+    print("✅ Jenkins Pipeline Test Script")
+    print(f"Current date & time: {datetime.datetime.now()}")
+    print("Python version:", sys.version)
+    print("Script executed successfully 🚀")
+
+if __name__ == "__main__":
+    main()
